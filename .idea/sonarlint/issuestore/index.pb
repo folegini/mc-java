@@ -11,3 +11,6 @@ m
 =src/test/java/com/folegini/mcjava/McJavaApplicationTests.java,c/d/cd2b31326eb2c9294b6a7b71511f047a6aa87bfd
 h
 8src/main/java/com/folegini/mcjava/McJavaApplication.java,a/4/a4baffc3286dfdda47e819523e9c9a0f2101878c
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
