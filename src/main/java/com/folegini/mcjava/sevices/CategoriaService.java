@@ -1,5 +1,7 @@
 package com.folegini.mcjava.sevices;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,9 +14,9 @@ public class CategoriaService {
     @Autowired
     private CategoriaRepository categoriaRepository;
 
-    public Categoria buscarPorId(Integer id){
+    public Optional<Categoria> buscarPorId(Integer id){
 
-        Categoria categoria = categoriaRepository.getById(id);
+        Optional<Categoria> categoria = categoriaRepository.buscarById(id);
 
         return categoria;
     }
